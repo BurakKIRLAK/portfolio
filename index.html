@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="tr" class="light">
+<head>
+    <meta charset="utf-8"/>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+    <title>BURAK KIRLAK | ARCHITECT</title>
+    
+    <link href="https://fonts.googleapis.com/css2?family=Epilogue:wght@700;900&family=Space+Grotesk:wght@400;500;700&display=swap" rel="stylesheet"/>
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" rel="stylesheet"/>
+    
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            darkMode: 'class',
+            theme: {
+                extend: {
+                    colors: {
+                        'primary': '#0040e0',
+                        'surface': '#f9f9f9',
+                        'on-surface': '#1a1c1c',
+                    }
+                }
+            }
+        }
+    </script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+
+
+<body class="bg-surface text-on-surface font-['Space_Grotesk']">
+
+    <nav class="sticky top-0 z-50 bg-surface border-b-4 border-black px-8 py-6 flex justify-between items-center">
+        <div class="text-3xl font-black tracking-tighter uppercase">Burak KIRLAK</div>
+        <div class="hidden md:flex gap-8 items-center font-['Epilogue'] font-bold text-sm tracking-widest">
+            <a href="#work" class="text-primary underline decoration-4 underline-offset-8">WORK</a>
+            <a href="#now" class="hover:text-primary transition-colors">NOW</a>
+            <a href="mailto:burakhankirlak@outlook.com" class="hover:text-primary transition-colors">CONTACT</a>
+            <button onclick="document.documentElement.classList.toggle('dark')" class="bg-black text-white px-4 py-2 text-xs">MODE</button>
+        </div>
+    </nav>
+
+    <main class="max-w-[1440px] mx-auto px-8 py-12">
+        
+        <section class="grid grid-cols-1 md:grid-cols-12 border-4 border-black mb-24 overflow-hidden">
+            <div class="md:col-span-8 p-8 md:p-16 flex flex-col justify-center bg-white border-b-4 md:border-b-0 md:border-r-4 border-black">
+                <p class="text-primary font-bold text-xs uppercase tracking-[0.2em] mb-4">SOFTWARE ENGINEERING @ ATLAS UNIVERSITY</p>
+                <h1 class="font-['Epilogue'] text-6xl md:text-8xl font-black uppercase leading-[0.85] tracking-tighter mb-8">
+                    YÜZEYSELLİĞİN <span class="text-primary">REDDİ.</span>
+                </h1>
+                <div class="text-xl max-w-xl leading-relaxed text-gray-700">
+                    <p class="mb-2">
+                        Merhaba! Ben Burak. Yazılım mühendisliği öğrencisiyim. Web 
+                        Programlama, C, Java, Game Development vb. çeşitli 
+                        alanlarda projeler geliştiriyor her denemede yeni şeyler 
+                        öğreniyorum. Karmaşık problemleri parçalara ayırarak 
+                        sağlam dijital altyapılar inşa ediyorum. 
+                    </p>
+                    <p class="text-xl max-w-xl leading-relaxed text-gray-700 mt-2">-Sürecim, yüzeyselliğin reddidir.</p>
+                </div>
+            </div>
+
+           <div class="md:col-span-4 h-[400px] md:h-auto relative overflow-hidden group z-20">
+                <div class="absolute inset-0 bg-primary/20 mix-blend-multiply z-10 pointer-events-none transition-opacity group-hover:opacity-0"></div>
+                
+                <img 
+                    src="pp.webp" 
+                    alt="Burak Kırlak - Architect" 
+                    class="w-full h-full object-cover object-center transition-transform duration-500 group-hover:scale-105"
+                />
+            </div>
+        </section>
+
+
+
+        <section id="now" class="grid grid-cols-1 md:grid-cols-2 gap-12 mb-24">
+
+
+            <div class="bg-[#f3f3f3] p-8 border-4 border-black shadow-[8px_8px_0px_0px_rgba(0,64,224,1)]">
+                <div class="flex items-center gap-4 mb-6 text-primary">
+                    <span class="material-symbols-outlined text-4xl">sensors</span>
+                    <h2 class="text-4xl font-black uppercase tracking-tighter text-black">ŞU AN</h2>
+                </div>
+                <p class="text-lg mb-8">
+                    Aktif olarak <strong>Koçum Benim</strong> projesinin temel fonksiyonlarını ve altyapısını geliştiriyorum.
+                </p>
+                <div class="space-y-4 font-bold">
+                    <div class="flex items-center gap-3"><div class="w-3 h-3 bg-primary"></div> Frontend ve Backend parçaların geliştirilmesi.</div>
+                    <div class="flex items-center gap-3"><div class="w-3 h-3 bg-primary"></div> Otomasyon sistemlerinin geliştirilmesi</div>
+                </div>
+            </div>
+
+
+
+
+
+            <div class="bg-black text-white p-8 border-4 border-black">
+                <h2 class="text-4xl font-black uppercase tracking-tighter mb-8">TECH STACK</h2>
+                <div class="grid grid-cols-3 gap-4">
+                    <div class="border-2 border-white/20 p-4 flex flex-col items-center hover:bg-primary transition-colors cursor-crosshair group">
+                        <span class="material-symbols-outlined mb-2 group-hover:scale-110">terminal</span>
+                        <span class="text-[10px] font-bold tracking-widest">PYTHON</span>
+                    </div>
+                    <div class="border-2 border-white/20 p-4 flex flex-col items-center hover:bg-primary transition-colors cursor-crosshair group">
+                        <span class="material-symbols-outlined mb-2 group-hover:scale-110">javascript</span>
+                        <span class="text-[10px] font-bold tracking-widest">REACT</span>
+                    </div>
+                    <div class="border-2 border-white/20 p-4 flex flex-col items-center hover:bg-primary transition-colors cursor-crosshair group">
+                        <span class="material-symbols-outlined mb-2 group-hover:scale-110">deployed_code</span>
+                        <span class="text-[10px] font-bold tracking-widest">DOCKER</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+
+
+
+        <h2 id="work" class="text-6xl md:text-8xl font-black uppercase tracking-tighter border-b-8 border-black pb-4 mb-12">PROJECTS</h2>
+        <section class="grid grid-cols-1 md:grid-cols-2 gap-12">
+            
+            <a href="https://tracker.burakkirlak.info" target="_blank" class="group block cursor-pointer no-underline text-on-surface">
+                <div class="bg-[#e2e2e2] border-4 border-black aspect-video mb-6 relative overflow-hidden z-0">
+                    <div class="absolute top-4 left-4 bg-black text-white px-3 py-1 font-bold text-xs z-20">ACTIVE</div>
+                    <img 
+                        src="tracker.png" 
+                        alt="Python Tracker Proje Ekran Görüntüsü" 
+                        class="w-full h-full object-cover object-center transition-transform duration-500 group-hover:scale-110"
+                    />
+                    <div class="absolute inset-0 bg-primary/10 mix-blend-multiply z-10 pointer-events-none transition-opacity duration-300 opacity-100 group-hover:opacity-0"></div>
+                    <div class="absolute inset-0 bg-black/0 group-hover:bg-black/5 z-10 transition-colors duration-300"></div>
+                </div> 
+                <div class="flex justify-between items-center">
+                    <h3 class="text-4xl font-black uppercase tracking-tighter transition-colors group-hover:text-primary">Python Tracker</h3>
+                    <span class="material-symbols-outlined text-4xl transform transition-transform group-hover:translate-x-2 group-hover:-translate-y-2">arrow_outward</span>
+                </div>
+                <p class="text-lg mt-4 text-gray-600 leading-relaxed">
+                    Öğrenci gelişimini gerçek zamanlı takip eden, Python tabanlı izleme ve veri orkestrasyon sistemi.
+                </p>
+                <div class="flex gap-2 mt-4">
+                    <span class="bg-black text-white px-3 py-1 text-[10px] font-bold uppercase tracking-widest">PYTHON</span>
+                    <span class="border border-black px-3 py-1 text-[10px] font-bold uppercase tracking-widest">BACKEND</span>
+                </div>
+            </a>
+
+
+
+
+            <a href="https://dokushoka.burakkirlak.info" target="_blank" class="group block cursor-pointer no-underline text-on-surface">
+                <div class="bg-[#e2e2e2] border-4 border-black aspect-video mb-6 relative overflow-hidden z-0">
+                    <div class="absolute top-4 left-4 bg-black text-white px-3 py-1 font-bold text-xs z-30">ACTIVE</div>
+                    
+                    <img 
+                        src="new.png" 
+                        alt="Dokushoka Proje" 
+                        class="w-full h-full object-cover object-center relative z-10 transition-transform duration-500 group-hover:scale-110"
+                    />
+
+                    <div class="absolute inset-0 bg-primary/20 mix-blend-multiply z-20 pointer-events-none transition-opacity duration-300 opacity-100 group-hover:opacity-0"></div>
+                    <div class="absolute inset-0 bg-black/0 group-hover:bg-black/5 z-10 transition-colors duration-300"></div>
+                </div>
+                
+                <div class="flex justify-between items-center">
+                    <h3 class="text-4xl font-black uppercase tracking-tighter transition-colors group-hover:text-primary">Dokushoka</h3>
+                    <span class="material-symbols-outlined text-4xl transform transition-transform group-hover:translate-x-2 group-hover:-translate-y-2">arrow_outward</span>
+                </div>
+                <p class="text-lg mt-4 text-gray-600 leading-relaxed">
+                    Japon kültürü ve kitap odaklı, derinlemesine etkileşim sunan sosyal platform.
+                </p>
+                <div class="flex gap-2 mt-4">
+                    <span class="bg-black text-white px-3 py-1 text-[10px] font-bold uppercase tracking-widest">REACT</span>
+                    <span class="border border-black px-3 py-1 text-[10px] font-bold uppercase tracking-widest">FULLSTACK</span>
+                </div>
+            </a>
+        </section>
+    </main>
+
+
+
+
+
+
+
+
+    <footer class="bg-black text-white p-12 mt-32">
+        <div class="max-w-[1440px] mx-auto flex flex-col md:flex-row justify-between items-center gap-8">
+            <div class="text-2xl font-black">Burak Ahmet Han Kırlak</div>
+            <div class="flex gap-8 font-bold text-xs tracking-widest uppercase">
+                <a href="https://github.com/HanMiyazaki" class="hover:text-primary">GITHUB</a>
+                <a href="mailto:burakhankirlak@outlook.com" class="hover:text-primary">EMAIL</a>
+            </div>
+            <div class="text-[10px] opacity-50 uppercase tracking-widest">©2026 Burak Ahmet Han Kırlak</div>
+        </div>
+    </footer>
+
+</body>
+</html>
